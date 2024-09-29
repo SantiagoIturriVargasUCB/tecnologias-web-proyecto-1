@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
 .container {
@@ -20,17 +21,19 @@ body {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-column: 1 / 4;
+    padding: 20px;
 }
 
 .sidebar {
     background-color: #ddd;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .content {
     background-color: #eee;
     padding: 20px;
+    text-align: left;
 }
 
 .footer {
@@ -39,6 +42,7 @@ body {
     text-align: center;
     padding: 20px;
 }
+
 
 a {
     display: inline-block;

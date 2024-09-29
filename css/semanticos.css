@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
 header, footer {
@@ -19,13 +20,15 @@ header, footer {
 .sidebar {
     background-color: #ddd;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .content {
     background-color: #eee;
     padding: 20px;
+    text-align: left;
 }
+
 
 a {
     display: inline-block;
