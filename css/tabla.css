@@ -1,19 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
 table {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     border-collapse: collapse;
-    margin: 10px 0;
-    font-family: Arial, sans-serif;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 th, td {
-    padding: 5px 5px;
-    text-align: center;
+    padding: 15px;
     border: 1px solid #ddd;
 }
 
 th {
-    background-color: #4CAF50;
+    background-color: #007BFF;
     color: white;
     font-weight: bold;
 }
@@ -22,30 +33,23 @@ td {
     background-color: #f9f9f9;
 }
 
-tbody tr:nth-child(even) td {
-    background-color: #f1f1f1;
-}
-
 tbody tr:hover td {
     background-color: #f0f0f0;
 }
 
-caption {
-    font-size: 1.5em;
-    margin: 10px 0;
-    color: #333;
-}
-
 a {
     display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
+    margin-top: 30px;
+    padding: 12px 24px;
     background-color: #007BFF;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
 a:hover {
+    transform: scale(1.1);
     background-color: #0056b3;
 }
